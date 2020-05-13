@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="text">
+        <item>@string/text1</item>
+        <item>@string/text2</item>
+        <item>@string/text3</item>
+        <item>@string/text4</item>
+        <item>@string/occupation</item>
+    </string-array>
+</resources>

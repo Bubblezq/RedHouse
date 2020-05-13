@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/yhyLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context=".MapActivity">
+
+    <!--android:background="@drawable/transfer_bg"-->
+
+    <LinearLayout
+        android:id="@+id/yhyContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="30"
+        android:orientation="horizontal">
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/yhyConstraint"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:id="@+id/room"
+                android:layout_width="800dp"
+                android:layout_height="0dp"
+                android:adjustViewBounds="true"
+                android:contentDescription="@null"
+                android:scaleType="fitXY"
+                android:src="@drawable/room"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <ImageButton
+                android:id="@+id/imageButton"
+                android:layout_width="29dp"
+                android:layout_height="30dp"
+                android:background="@drawable/transfer_bg"
+                android:contentDescription="@null"
+                app:layout_constraintBottom_toBottomOf="@id/room"
+                app:layout_constraintEnd_toEndOf="@id/room"
+                app:layout_constraintHorizontal_bias="0.759"
+                app:layout_constraintStart_toStartOf="@id/room"
+                app:layout_constraintTop_toTopOf="@id/room"
+                app:layout_constraintVertical_bias="0.41" />
+
+            <ImageView
+                android:id="@+id/displayImage"
+                android:layout_width="168dp"
+                android:layout_height="216dp"
+                android:contentDescription="@null"
+                android:src="@drawable/baochai"
+                android:visibility="gone"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.2" />
+
+            <TextView
+                android:id="@+id/dialog"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/dialogbox"
+                android:contentDescription="@null"
+                android:padding="23dp"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:visibility="gone"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+        </android.support.constraint.ConstraintLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/buttonLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/back"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:text="@string/back" />
+
+        <Button
+            android:id="@+id/unknown"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:text="@string/unknown" />
+
+        <Button
+            android:id="@+id/more"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:contentDescription="@null"
+            android:text="@string/more" />
+    </LinearLayout>
+
+</LinearLayout>

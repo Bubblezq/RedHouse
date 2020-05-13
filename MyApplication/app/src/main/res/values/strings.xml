@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">指尖红楼</string>
+    <string name="text1">刚要寻别的姊妹去，忽见面前一双玉色蝴蝶，大如团扇，一上一下，迎风翩跹，十分有趣。</string>
+    <string name="text2">宝钗意欲扑了来玩耍，遂向袖中取出扇子来，向草地下来扑。</string>
+    <string name="text3">只见那一双蝴蝶忽起忽落，来来往往，将欲过河去了。</string>
+    <string name="text4">引的宝钗蹑手蹑脚的，一直跟到池边滴翠亭上，香汗淋漓，娇喘细细。</string>
+    <string name="occupation"/>
+    <string name="back">返回</string>
+    <string name="unknown">（占位）</string>
+    <string name="more">更多</string>
+</resources>
