@@ -36,19 +36,188 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
-            <ImageButton
-                android:id="@+id/yihongyuan"
-                android:layout_width="32dp"
-                android:layout_height="27dp"
+            <Button
+                android:id="@+id/xingqinbieshu"
+                android:layout_width="34dp"
+                android:layout_height="34dp"
                 android:adjustViewBounds="true"
                 android:background="@drawable/transfer_bg"
                 android:contentDescription="@null"
+                android:text="省亲别墅"
                 app:layout_constraintBottom_toBottomOf="@id/map"
                 app:layout_constraintEnd_toEndOf="@id/map"
                 app:layout_constraintHorizontal_bias="0.48"
                 app:layout_constraintStart_toStartOf="@id/map"
                 app:layout_constraintTop_toTopOf="@id/map"
                 app:layout_constraintVertical_bias="0.241" />
+
+            <Button
+                android:id="@+id/xiaoxiangguan"
+                android:layout_width="32dp"
+                android:layout_height="38dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/transfer_bg"
+                android:contentDescription="@null"
+                android:text="潇湘馆"
+                app:layout_constraintBottom_toBottomOf="@id/map"
+                app:layout_constraintEnd_toEndOf="@id/map"
+                app:layout_constraintHorizontal_bias="0.44"
+                app:layout_constraintStart_toStartOf="@id/map"
+                app:layout_constraintTop_toTopOf="@id/map"
+                app:layout_constraintVertical_bias="0.72" />
+
+            <Button
+                android:id="@+id/yihongyuan"
+                android:layout_width="40dp"
+                android:layout_height="38dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/transfer_bg"
+                android:contentDescription="@null"
+                android:text="怡红院"
+                app:layout_constraintBottom_toBottomOf="@id/map"
+                app:layout_constraintEnd_toEndOf="@id/map"
+                app:layout_constraintHorizontal_bias="0.15"
+                app:layout_constraintStart_toStartOf="@id/map"
+                app:layout_constraintTop_toTopOf="@id/map"
+                app:layout_constraintVertical_bias="0.75" />
+
+            <Button
+                android:id="@+id/longcuian"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/transfer_bg"
+                android:contentDescription="@null"
+                android:text="栊翠庵"
+                app:layout_constraintBottom_toBottomOf="@id/map"
+                app:layout_constraintEnd_toEndOf="@id/map"
+                app:layout_constraintHorizontal_bias="0.1"
+                app:layout_constraintStart_toStartOf="@id/map"
+                app:layout_constraintTop_toTopOf="@id/map"
+                app:layout_constraintVertical_bias="0.5" />
+
+            <Button
+                android:id="@+id/qiushuangzhai"
+                android:layout_width="28dp"
+                android:layout_height="35dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/transfer_bg"
+                android:contentDescription="@null"
+                android:text="秋爽斋"
+                app:layout_constraintBottom_toBottomOf="@id/map"
+                app:layout_constraintEnd_toEndOf="@id/map"
+                app:layout_constraintHorizontal_bias="0.56"
+                app:layout_constraintStart_toStartOf="@id/map"
+                app:layout_constraintTop_toTopOf="@id/map"
+                app:layout_constraintVertical_bias="0.8" />
+
+            <Button
+                android:id="@+id/liaofengxuan"
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/transfer_bg"
+                android:contentDescription="@null"
+                android:text="蓼风轩"
+                app:layout_constraintBottom_toBottomOf="@id/map"
+                app:layout_constraintEnd_toEndOf="@id/map"
+                app:layout_constraintHorizontal_bias="0.59"
+                app:layout_constraintStart_toStartOf="@id/map"
+                app:layout_constraintTop_toTopOf="@id/map"
+                app:layout_constraintVertical_bias="0.62" />
+
+            <Button
+                android:id="@+id/zhuijinlou"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/transfer_bg"
+                android:contentDescription="@null"
+                android:text="缀锦楼"
+                app:layout_constraintBottom_toBottomOf="@id/map"
+                app:layout_constraintEnd_toEndOf="@id/map"
+                app:layout_constraintHorizontal_bias="0.674"
+                app:layout_constraintStart_toStartOf="@id/map"
+                app:layout_constraintTop_toTopOf="@id/map"
+                app:layout_constraintVertical_bias="0.4" />
+
+            <Button
+                android:id="@+id/hengwuyuan"
+                android:layout_width="40dp"
+                android:layout_height="45dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/transfer_bg"
+                android:contentDescription="@null"
+                android:text="蘅芜苑"
+                app:layout_constraintBottom_toBottomOf="@id/map"
+                app:layout_constraintEnd_toEndOf="@id/map"
+                app:layout_constraintHorizontal_bias="0.88"
+                app:layout_constraintStart_toStartOf="@id/map"
+                app:layout_constraintTop_toTopOf="@id/map"
+                app:layout_constraintVertical_bias="0.26" />
+
+            <Button
+                android:id="@+id/hongxiangpu"
+                android:layout_width="30dp"
+                android:layout_height="45dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/transfer_bg"
+                android:contentDescription="@null"
+                android:text="红香圃"
+                app:layout_constraintBottom_toBottomOf="@id/map"
+                app:layout_constraintEnd_toEndOf="@id/map"
+                app:layout_constraintHorizontal_bias="0.88"
+                app:layout_constraintStart_toStartOf="@id/map"
+                app:layout_constraintTop_toTopOf="@id/map"
+                app:layout_constraintVertical_bias="0.44" />
+
+            <Button
+                android:id="@+id/daoxiangcun"
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/transfer_bg"
+                android:contentDescription="@null"
+                android:text="稻香村"
+                app:layout_constraintBottom_toBottomOf="@id/map"
+                app:layout_constraintEnd_toEndOf="@id/map"
+                app:layout_constraintHorizontal_bias="0.90"
+                app:layout_constraintStart_toStartOf="@id/map"
+                app:layout_constraintTop_toTopOf="@id/map"
+                app:layout_constraintVertical_bias="0.573" />
+
+            <Button
+                android:id="@+id/zhanhuaming"
+                android:layout_width="103.7px"
+                android:layout_height="257.7px"
+                android:adjustViewBounds="true"
+                android:background="@drawable/button"
+                android:contentDescription="@null"
+                android:text="占花名"
+                android:textColor="@color/colorGame"
+                app:layout_constraintBottom_toBottomOf="@id/map"
+                app:layout_constraintEnd_toEndOf="@id/map"
+                app:layout_constraintHorizontal_bias="0.8"
+                app:layout_constraintStart_toStartOf="@id/map"
+                app:layout_constraintTop_toTopOf="@id/map"
+                app:layout_constraintVertical_bias="0.88" />
+
+            <Button
+                android:id="@+id/yuanxiaodengmi"
+                android:layout_width="103.7px"
+                android:layout_height="257.7px"
+                android:adjustViewBounds="true"
+                android:background="@drawable/button"
+                android:contentDescription="@null"
+                android:text="元宵灯谜"
+                android:textColor="@color/colorGame"
+                app:layout_constraintBottom_toBottomOf="@id/map"
+                app:layout_constraintEnd_toEndOf="@id/map"
+                app:layout_constraintHorizontal_bias="0.94"
+                app:layout_constraintStart_toStartOf="@id/map"
+                app:layout_constraintTop_toTopOf="@id/map"
+                app:layout_constraintVertical_bias="0.88"/>
+
         </android.support.constraint.ConstraintLayout>
     </LinearLayout>
 

@@ -16,7 +16,18 @@
             </intent-filter>
         </activity>
         <activity android:name=".MapActivity"/>
+        <activity android:name=".DaoXiangCunActivity"/>
+        <activity android:name=".HengWuYuanActivity"/>
+        <activity android:name=".HongXiangPuActivity"/>
+        <activity android:name=".LiaoFengXuanActivity"/>
+        <activity android:name=".LongCuiAnActivity"/>
+        <activity android:name=".QiuShuangZhaiActivity"/>
         <activity android:name=".YiHongYuanActivity"/>
+        <activity android:name=".XiaoXiangGuanActivity"/>
+        <activity android:name=".XingQinBieShuActivity"/>
+        <activity android:name=".ZhuiJinLouActivity"/>
+        <activity android:name=".CaiDengMiActivity" android:screenOrientation="portrait"></activity>
+        <activity android:name=".DMDetailsActivity" android:screenOrientation="portrait"></activity>
     </application>
 
 </manifest>
