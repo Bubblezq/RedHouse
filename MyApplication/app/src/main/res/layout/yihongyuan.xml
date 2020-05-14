@@ -14,7 +14,7 @@
     <LinearLayout
         android:id="@+id/buttonLayout"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="49dp"
         android:layout_weight="1"
         android:orientation="horizontal">
 
@@ -24,6 +24,14 @@
             android:layout_height="25dp"
             android:layout_margin="5dp"
             android:background="@drawable/returnbutton" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="6dp"
+            android:text="怡红院"
+            android:textColor="@color/colorBlack"
+            android:textSize="18dp" />
 
     </LinearLayout>
 
@@ -40,45 +48,59 @@
             android:layout_height="match_parent"
             android:layout_gravity="center">
 
+            <LinearLayout
+                android:id="@+id/person_verdict"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_weight="1"
+                android:layout_marginTop="1dp"
+                android:orientation="horizontal"
+                tools:ignore="MissingConstraints">
+
+                <ImageView
+                    android:id="@+id/displayImage"
+                    android:layout_width="134dp"
+                    android:layout_height="199.5dp"
+                    android:contentDescription="@null"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_gravity="left"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/jiabaoyu" />
+
+                <TextView
+                    android:id="@+id/verdict"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_gravity="right"
+                    android:background="@drawable/dialogbox"
+                    android:contentDescription="@null"
+                    android:padding="20dp"
+                    android:text="@string/jiabaoyu1"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
             <ImageView
                 android:id="@+id/room"
-                android:layout_width="407dp"
-                android:layout_height="409dp"
-                android:adjustViewBounds="true"
+                android:layout_width="391dp"
+                android:layout_height="391dp"
                 android:layout_centerVertical="true"
+                android:adjustViewBounds="true"
                 android:contentDescription="@null"
                 android:src="@drawable/yihongyuan"
-                android:scaleType="centerInside"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <ImageButton
-                android:id="@+id/imageButton"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:background="@drawable/transfer_bg"
-                android:contentDescription="@null" />
-
-            <ImageView
-                android:id="@+id/displayImage"
-                android:layout_width="134dp"
-                android:layout_height="199.5dp"
-                android:contentDescription="@null"
-                android:src="@drawable/jiabaoyu"
-                android:visibility="gone"
-                android:scaleType="centerInside"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.5"
-                app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.3" />
+                app:layout_constraintVertical_bias="0.5" />
 
             <TextView
                 android:id="@+id/dialog"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
+                android:layout_width="412dp"
+                android:layout_height="198dp"
                 android:background="@drawable/dialogbox"
                 android:contentDescription="@null"
                 android:padding="23dp"

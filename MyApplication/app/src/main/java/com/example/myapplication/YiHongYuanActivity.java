@@ -13,6 +13,7 @@ import android.annotation.SuppressLint;
 import android.util.Log;
 
 public class YiHongYuanActivity extends Activity {
+    private int verdict_count=0;
     private int text_count=0;
     private float originalX;
     @SuppressLint("ClickableViewAccessibility")
@@ -21,25 +22,52 @@ public class YiHongYuanActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.yihongyuan);
 
-        /*Button b2=findViewById(R.id.unknown);
-        Button b3=findViewById(R.id.more);*/
-
+        final TextView ve=findViewById(R.id.verdict);
+        ve.bringToFront();
         final TextView tv=findViewById(R.id.dialog);
         tv.bringToFront();
         final ImageView iv=findViewById(R.id.displayImage);
         iv.bringToFront();
 
-        ImageButton btn=findViewById(R.id.imageButton);
+        ImageView btn=findViewById(R.id.room);
         btn.bringToFront();
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                TypedArray ta=getResources().obtainTypedArray(R.array.text);
-                int id=ta.getResourceId(text_count,-1);
-                tv.setText(id);
+                TypedArray ta=getResources().obtainTypedArray(R.array.verdict);
+                TypedArray tb=getResources().obtainTypedArray(R.array.text);
+                int id1=ta.getResourceId(verdict_count,-1);
+                int id2=tb.getResourceId(text_count,-1);
+                if(id1==R.string.occupation) {
+                    verdict_count=0;
+                    ta.recycle();
+                    return;
+                }
+                if(id2==R.string.occupation) {
+                    text_count=0;
+                    tb.recycle();
+                    return;
+                }
+                ve.setText(id1);
+                ve.setVisibility(View.VISIBLE);
+                tv.setText(id2);
                 tv.setVisibility(View.VISIBLE);
-                iv.setVisibility(View.VISIBLE);
-                text_count=text_count+1;
+            }
+        });
+
+        ve.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                TypedArray ta=getResources().obtainTypedArray(R.array.verdict);
+                int id=ta.getResourceId(verdict_count,-1);
+                if(id==R.string.occupation) {
+                    verdict_count=0;
+                    ta.recycle();
+                    return;
+                }
+                ve.setText(id);
+                ve.setVisibility(View.VISIBLE);
+                verdict_count=verdict_count+1;
                 ta.recycle();
             }
         });
@@ -51,8 +79,6 @@ public class YiHongYuanActivity extends Activity {
                 int id=ta.getResourceId(text_count,-1);
                 if(id==R.string.occupation) {
                     text_count=0;
-                    tv.setVisibility(View.GONE);
-                    iv.setVisibility(View.GONE);
                     ta.recycle();
                     return;
                 }
