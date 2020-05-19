@@ -34,8 +34,8 @@ public class YiHongYuanActivity extends Activity {
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                TypedArray ta=getResources().obtainTypedArray(R.array.verdict);
-                TypedArray tb=getResources().obtainTypedArray(R.array.text);
+                TypedArray ta=getResources().obtainTypedArray(R.array.jiabaoyu_verdict);
+                TypedArray tb=getResources().obtainTypedArray(R.array.jiabaoyu);
                 int id1=ta.getResourceId(verdict_count,-1);
                 int id2=tb.getResourceId(text_count,-1);
                 if(id1==R.string.occupation) {
@@ -58,7 +58,7 @@ public class YiHongYuanActivity extends Activity {
         ve.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                TypedArray ta=getResources().obtainTypedArray(R.array.verdict);
+                TypedArray ta=getResources().obtainTypedArray(R.array.jiabaoyu_verdict);
                 int id=ta.getResourceId(verdict_count,-1);
                 if(id==R.string.occupation) {
                     verdict_count=0;
@@ -75,7 +75,7 @@ public class YiHongYuanActivity extends Activity {
         tv.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                TypedArray ta=getResources().obtainTypedArray(R.array.text);
+                TypedArray ta=getResources().obtainTypedArray(R.array.jiabaoyu);
                 int id=ta.getResourceId(text_count,-1);
                 if(id==R.string.occupation) {
                     text_count=0;

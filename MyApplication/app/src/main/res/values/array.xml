@@ -1,17 +1,134 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="verdict">
-        <item>@string/jiabaoyu1</item>
-        <item>@string/jiabaoyu2</item>
+    <string-array name="jiabaoyu_verdict">
+        <item>@string/jiabaoyu_verdict1</item>
+        <item>@string/jiabaoyu_verdict2</item>
         <item>@string/occupation</item>
     </string-array>
-    <string-array name="text">
-        <item>@string/text1</item>
-        <item>@string/text2</item>
-        <item>@string/text3</item>
-        <item>@string/text4</item>
-        <item>@string/text5</item>
-        <item>@string/text6</item>
+    <string-array name="jiabaoyu">
+        <item>@string/jiabaoyu1</item>
+        <item>@string/jiabaoyu2</item>
+        <item>@string/jiabaoyu3</item>
+        <item>@string/jiabaoyu4</item>
+        <item>@string/jiabaoyu5</item>
+        <item>@string/jiabaoyu6</item>
+        <item>@string/occupation</item>
+    </string-array>
+    <string-array name="lindaiyu_verdict">
+        <item>@string/lindaiyu_verdict</item>
+        <item>@string/occupation</item>
+    </string-array>
+    <string-array name="lindaiyu">
+        <item>@string/lindaiyu1</item>
+        <item>@string/lindaiyu2</item>
+        <item>@string/lindaiyu3</item>
+        <item>@string/lindaiyu4</item>
+        <item>@string/lindaiyu5</item>
+        <item>@string/lindaiyu6</item>
+        <item>@string/occupation</item>
+    </string-array>
+    <string-array name="jiatanchun_verdict">
+        <item>@string/jiatanchun_verdict</item>
+        <item>@string/occupation</item>
+    </string-array>
+    <string-array name="jiatanchun">
+        <item>@string/jiatanchun1</item>
+        <item>@string/jiatanchun2</item>
+        <item>@string/jiatanchun3</item>
+        <item>@string/jiatanchun4</item>
+        <item>@string/jiatanchun5</item>
+        <item>@string/jiatanchun6</item>
+        <item>@string/occupation</item>
+    </string-array>
+    <string-array name="jiayingchun_verdict">
+        <item>@string/jiayingchun_verdict</item>
+        <item>@string/occupation</item>
+    </string-array>
+    <string-array name="jiayingchun">
+        <item>@string/jiayingchun1</item>
+        <item>@string/jiayingchun2</item>
+        <item>@string/jiayingchun3</item>
+        <item>@string/jiayingchun4</item>
+        <item>@string/jiayingchun5</item>
+        <item>@string/jiayingchun6</item>
+        <item>@string/occupation</item>
+    </string-array>
+    <string-array name="jiaxichun_verdict">
+        <item>@string/jiaxichun_verdict</item>
+        <item>@string/occupation</item>
+    </string-array>
+    <string-array name="jiaxichun">
+        <item>@string/jiaxichun1</item>
+        <item>@string/jiaxichun2</item>
+        <item>@string/jiaxichun3</item>
+        <item>@string/jiaxichun4</item>
+        <item>@string/jiaxichun5</item>
+        <item>@string/jiaxichun6</item>
+        <item>@string/occupation</item>
+    </string-array>
+    <string-array name="xuebaochai_verdict">
+        <item>@string/xuebaochai_verdict</item>
+        <item>@string/occupation</item>
+    </string-array>
+    <string-array name="xuebaochai">
+        <item>@string/xuebaochai1</item>
+        <item>@string/xuebaochai2</item>
+        <item>@string/xuebaochai3</item>
+        <item>@string/xuebaochai4</item>
+        <item>@string/xuebaochai5</item>
+        <item>@string/xuebaochai6</item>
+        <item>@string/occupation</item>
+    </string-array>
+    <string-array name="miaoyu_verdict">
+        <item>@string/miaoyu_verdict</item>
+        <item>@string/occupation</item>
+    </string-array>
+    <string-array name="miaoyu">
+        <item>@string/miaoyu1</item>
+        <item>@string/miaoyu2</item>
+        <item>@string/miaoyu3</item>
+        <item>@string/miaoyu4</item>
+        <item>@string/miaoyu5</item>
+        <item>@string/miaoyu6</item>
+        <item>@string/occupation</item>
+    </string-array>
+    <string-array name="jiayuanchun_verdict">
+        <item>@string/jiayuanchun_verdict</item>
+        <item>@string/occupation</item>
+    </string-array>
+    <string-array name="jiayuanchun">
+        <item>@string/jiayuanchun1</item>
+        <item>@string/jiayuanchun2</item>
+        <item>@string/jiayuanchun3</item>
+        <item>@string/jiayuanchun4</item>
+        <item>@string/jiayuanchun5</item>
+        <item>@string/jiayuanchun6</item>
+        <item>@string/occupation</item>
+    </string-array>
+    <string-array name="shixiangyun_verdict">
+        <item>@string/shixiangyun_verdict</item>
+        <item>@string/occupation</item>
+    </string-array>
+    <string-array name="shixiangyun">
+        <item>@string/shixiangyun1</item>
+        <item>@string/shixiangyun2</item>
+        <item>@string/shixiangyun3</item>
+        <item>@string/shixiangyun4</item>
+        <item>@string/shixiangyun5</item>
+        <item>@string/shixiangyun6</item>
+        <item>@string/occupation</item>
+    </string-array>
+    <string-array name="liwan_verdict">
+        <item>@string/liwan_verdict</item>
+        <item>@string/occupation</item>
+    </string-array>
+    <string-array name="liwan">
+        <item>@string/liwan1</item>
+        <item>@string/liwan2</item>
+        <item>@string/liwan3</item>
+        <item>@string/liwan4</item>
+        <item>@string/liwan5</item>
+        <item>@string/liwan6</item>
         <item>@string/occupation</item>
     </string-array>
 </resources>

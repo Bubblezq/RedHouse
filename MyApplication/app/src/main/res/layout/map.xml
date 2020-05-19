@@ -12,13 +12,37 @@
     <!--android:background="@drawable/transfer_bg"-->
 
     <LinearLayout
+        android:id="@+id/buttonLayout"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/returnbutton" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="6dp"
+            android:text="返回"
+            android:textColor="@color/colorBlack"
+            android:textSize="18dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
         android:id="@+id/mapContainer"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="30"
         android:orientation="horizontal">
 
-        <android.support.constraint.ConstraintLayout
+        <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/mapConstraint"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -220,44 +244,7 @@
                 app:layout_constraintTop_toTopOf="@id/map"
                 app:layout_constraintVertical_bias="0.88"/>
 
-        </android.support.constraint.ConstraintLayout>
-    </LinearLayout>
-
-
-    <LinearLayout
-        android:id="@+id/buttonLayout"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:orientation="horizontal">
-
-        <Button
-            android:id="@+id/back"
-            style="@style/Widget.AppCompat.Button"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:contentDescription="@null"
-            android:text="@string/back" />
-
-        <Button
-            android:id="@+id/unknown"
-            style="@style/Widget.AppCompat.Button"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:contentDescription="@null"
-            android:text="@string/unknown" />
-
-        <Button
-            android:id="@+id/more"
-            style="@style/Widget.AppCompat.Button"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:contentDescription="@null"
-            android:text="@string/more" />
-
+        </androidx.constraintlayout.widget.ConstraintLayout>
     </LinearLayout>
 
 </LinearLayout>

@@ -28,6 +28,7 @@
         <activity android:name=".ZhuiJinLouActivity"/>
         <activity android:name=".CaiDengMiActivity" android:screenOrientation="portrait"></activity>
         <activity android:name=".DMDetailsActivity" android:screenOrientation="portrait"></activity>
+        <activity android:name=".ZhanHuaMingActivity" android:screenOrientation="portrait"></activity>
     </application>
 
 </manifest>

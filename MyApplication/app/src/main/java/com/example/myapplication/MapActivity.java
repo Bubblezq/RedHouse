@@ -1,6 +1,7 @@
 package com.example.myapplication;
 
 import android.app.Activity;
+import android.app.ActivityOptions;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -108,7 +109,7 @@ public class MapActivity extends Activity {
         btn11.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(MapActivity.this,QiuShuangZhaiActivity.class);
+                Intent intent=new Intent(MapActivity.this,ZhanHuaMingActivity.class);
                 startActivity(intent);
             }
         });
@@ -117,7 +118,7 @@ public class MapActivity extends Activity {
         btn12.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(MapActivity.this,QiuShuangZhaiActivity.class);
+                Intent intent=new Intent(MapActivity.this,CaiDengMiActivity.class);
                 startActivity(intent);
             }
         });
@@ -126,7 +127,8 @@ public class MapActivity extends Activity {
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                android.os.Process.killProcess(android.os.Process.myPid());
+                startActivity(new Intent(MapActivity.this, MainActivity.class),
+                        ActivityOptions.makeSceneTransitionAnimation(MapActivity.this).toBundle());
             }
         });
     }

@@ -1,13 +1,89 @@
 <resources>
     <string name="app_name">指尖红楼</string>
-    <string name="jiabaoyu1">天不拘兮地不羁，心头无喜亦无悲。只因煅炼通灵后，便向人间觅是非。</string>
-    <string name="jiabaoyu2">粉渍脂痕污宝光，房栊日夜困鸳鸯。沉酣一梦终须醒，冤孽偿清好散场。</string>
-    <string name="text1">当初在青埂峰下时，它只是一块石头，没有生命和思想，没有生命就会天地不拘，没有思想，不知道什么是喜欢什么是悲伤，慢慢地懂事了，开始向往着外面的世界，是是非非也就纷至沓来。</string>
-    <string name="text2">灵玉被胭脂香粉之类玷污已失去了光泽，宝玉整天整夜都在华贵的房子里沉溺于风月之事，深沉酣睡的梦应该醒来，既往所作的恶业必须偿清，大家都好各自到各自的归宿里面去。</string>
-    <string name="text3">刚要寻别的姊妹去，忽见面前一双玉色蝴蝶，大如团扇，一上一下，迎风翩跹，十分有趣。</string>
-    <string name="text4">宝钗意欲扑了来玩耍，遂向袖中取出扇子来，向草地下来扑。</string>
-    <string name="text5">只见那一双蝴蝶忽起忽落，来来往往，将欲过河去了。</string>
-    <string name="text6">引的宝钗蹑手蹑脚的，一直跟到池边滴翠亭上，香汗淋漓，娇喘细细。</string>
+    <string name="jiabaoyu_verdict1">天不拘兮地不羁，心头无喜亦无悲。只因煅炼通灵后，便向人间觅是非。</string>
+    <string name="jiabaoyu_verdict2">粉渍脂痕污宝光，房栊日夜困鸳鸯。沉酣一梦终须醒，冤孽偿清好散场。</string>
+    <string name="jiabaoyu1">当初在青埂峰下时，它只是一块石头，没有生命和思想，没有生命就会天地不拘，没有思想，不知道什么是喜欢什么是悲伤，慢慢地懂事了，开始向往着外面的世界，是是非非也就纷至沓来。</string>
+    <string name="jiabaoyu2">灵玉被胭脂香粉之类玷污已失去了光泽，宝玉整天整夜都在华贵的房子里沉溺于风月之事，深沉酣睡的梦应该醒来，既往所作的恶业必须偿清，大家都好各自到各自的归宿里面去。</string>
+    <string name="jiabaoyu3">刚要寻别的姊妹去，忽见面前一双玉色蝴蝶，大如团扇，一上一下，迎风翩跹，十分有趣。</string>
+    <string name="jiabaoyu4">宝钗意欲扑了来玩耍，遂向袖中取出扇子来，向草地下来扑。</string>
+    <string name="jiabaoyu5">只见那一双蝴蝶忽起忽落，来来往往，将欲过河去了。</string>
+    <string name="jiabaoyu6">引的宝钗蹑手蹑脚的，一直跟到池边滴翠亭上，香汗淋漓，娇喘细细。</string>
+
+    <string name="lindaiyu_verdict">天不拘兮地不羁，心头无喜亦无悲。只因煅炼通灵后，便向人间觅是非。</string>
+    <string name="lindaiyu1">当初在青埂峰下时，它只是一块石头，没有生命和思想，没有生命就会天地不拘，没有思想，不知道什么是喜欢什么是悲伤，慢慢地懂事了，开始向往着外面的世界，是是非非也就纷至沓来。</string>
+    <string name="lindaiyu2">灵玉被胭脂香粉之类玷污已失去了光泽，宝玉整天整夜都在华贵的房子里沉溺于风月之事，深沉酣睡的梦应该醒来，既往所作的恶业必须偿清，大家都好各自到各自的归宿里面去。</string>
+    <string name="lindaiyu3">刚要寻别的姊妹去，忽见面前一双玉色蝴蝶，大如团扇，一上一下，迎风翩跹，十分有趣。</string>
+    <string name="lindaiyu4">宝钗意欲扑了来玩耍，遂向袖中取出扇子来，向草地下来扑。</string>
+    <string name="lindaiyu5">只见那一双蝴蝶忽起忽落，来来往往，将欲过河去了。</string>
+    <string name="lindaiyu6">引的宝钗蹑手蹑脚的，一直跟到池边滴翠亭上，香汗淋漓，娇喘细细。</string>
+
+    <string name="jiatanchun_verdict">天不拘兮地不羁，心头无喜亦无悲。只因煅炼通灵后，便向人间觅是非。</string>
+    <string name="jiatanchun1">当初在青埂峰下时，它只是一块石头，没有生命和思想，没有生命就会天地不拘，没有思想，不知道什么是喜欢什么是悲伤，慢慢地懂事了，开始向往着外面的世界，是是非非也就纷至沓来。</string>
+    <string name="jiatanchun2">灵玉被胭脂香粉之类玷污已失去了光泽，宝玉整天整夜都在华贵的房子里沉溺于风月之事，深沉酣睡的梦应该醒来，既往所作的恶业必须偿清，大家都好各自到各自的归宿里面去。</string>
+    <string name="jiatanchun3">刚要寻别的姊妹去，忽见面前一双玉色蝴蝶，大如团扇，一上一下，迎风翩跹，十分有趣。</string>
+    <string name="jiatanchun4">宝钗意欲扑了来玩耍，遂向袖中取出扇子来，向草地下来扑。</string>
+    <string name="jiatanchun5">只见那一双蝴蝶忽起忽落，来来往往，将欲过河去了。</string>
+    <string name="jiatanchun6">引的宝钗蹑手蹑脚的，一直跟到池边滴翠亭上，香汗淋漓，娇喘细细。</string>
+
+    <string name="jiayingchun_verdict">天不拘兮地不羁，心头无喜亦无悲。只因煅炼通灵后，便向人间觅是非。</string>
+    <string name="jiayingchun1">当初在青埂峰下时，它只是一块石头，没有生命和思想，没有生命就会天地不拘，没有思想，不知道什么是喜欢什么是悲伤，慢慢地懂事了，开始向往着外面的世界，是是非非也就纷至沓来。</string>
+    <string name="jiayingchun2">灵玉被胭脂香粉之类玷污已失去了光泽，宝玉整天整夜都在华贵的房子里沉溺于风月之事，深沉酣睡的梦应该醒来，既往所作的恶业必须偿清，大家都好各自到各自的归宿里面去。</string>
+    <string name="jiayingchun3">刚要寻别的姊妹去，忽见面前一双玉色蝴蝶，大如团扇，一上一下，迎风翩跹，十分有趣。</string>
+    <string name="jiayingchun4">宝钗意欲扑了来玩耍，遂向袖中取出扇子来，向草地下来扑。</string>
+    <string name="jiayingchun5">只见那一双蝴蝶忽起忽落，来来往往，将欲过河去了。</string>
+    <string name="jiayingchun6">引的宝钗蹑手蹑脚的，一直跟到池边滴翠亭上，香汗淋漓，娇喘细细。</string>
+
+    <string name="jiaxichun_verdict">天不拘兮地不羁，心头无喜亦无悲。只因煅炼通灵后，便向人间觅是非。</string>
+    <string name="jiaxichun1">当初在青埂峰下时，它只是一块石头，没有生命和思想，没有生命就会天地不拘，没有思想，不知道什么是喜欢什么是悲伤，慢慢地懂事了，开始向往着外面的世界，是是非非也就纷至沓来。</string>
+    <string name="jiaxichun2">灵玉被胭脂香粉之类玷污已失去了光泽，宝玉整天整夜都在华贵的房子里沉溺于风月之事，深沉酣睡的梦应该醒来，既往所作的恶业必须偿清，大家都好各自到各自的归宿里面去。</string>
+    <string name="jiaxichun3">刚要寻别的姊妹去，忽见面前一双玉色蝴蝶，大如团扇，一上一下，迎风翩跹，十分有趣。</string>
+    <string name="jiaxichun4">宝钗意欲扑了来玩耍，遂向袖中取出扇子来，向草地下来扑。</string>
+    <string name="jiaxichun5">只见那一双蝴蝶忽起忽落，来来往往，将欲过河去了。</string>
+    <string name="jiaxichun6">引的宝钗蹑手蹑脚的，一直跟到池边滴翠亭上，香汗淋漓，娇喘细细。</string>
+
+    <string name="xuebaochai_verdict">天不拘兮地不羁，心头无喜亦无悲。只因煅炼通灵后，便向人间觅是非。</string>
+    <string name="xuebaochai1">当初在青埂峰下时，它只是一块石头，没有生命和思想，没有生命就会天地不拘，没有思想，不知道什么是喜欢什么是悲伤，慢慢地懂事了，开始向往着外面的世界，是是非非也就纷至沓来。</string>
+    <string name="xuebaochai2">灵玉被胭脂香粉之类玷污已失去了光泽，宝玉整天整夜都在华贵的房子里沉溺于风月之事，深沉酣睡的梦应该醒来，既往所作的恶业必须偿清，大家都好各自到各自的归宿里面去。</string>
+    <string name="xuebaochai3">刚要寻别的姊妹去，忽见面前一双玉色蝴蝶，大如团扇，一上一下，迎风翩跹，十分有趣。</string>
+    <string name="xuebaochai4">宝钗意欲扑了来玩耍，遂向袖中取出扇子来，向草地下来扑。</string>
+    <string name="xuebaochai5">只见那一双蝴蝶忽起忽落，来来往往，将欲过河去了。</string>
+    <string name="xuebaochai6">引的宝钗蹑手蹑脚的，一直跟到池边滴翠亭上，香汗淋漓，娇喘细细。</string>
+
+    <string name="miaoyu_verdict">天不拘兮地不羁，心头无喜亦无悲。只因煅炼通灵后，便向人间觅是非。</string>
+    <string name="miaoyu1">当初在青埂峰下时，它只是一块石头，没有生命和思想，没有生命就会天地不拘，没有思想，不知道什么是喜欢什么是悲伤，慢慢地懂事了，开始向往着外面的世界，是是非非也就纷至沓来。</string>
+    <string name="miaoyu2">灵玉被胭脂香粉之类玷污已失去了光泽，宝玉整天整夜都在华贵的房子里沉溺于风月之事，深沉酣睡的梦应该醒来，既往所作的恶业必须偿清，大家都好各自到各自的归宿里面去。</string>
+    <string name="miaoyu3">刚要寻别的姊妹去，忽见面前一双玉色蝴蝶，大如团扇，一上一下，迎风翩跹，十分有趣。</string>
+    <string name="miaoyu4">宝钗意欲扑了来玩耍，遂向袖中取出扇子来，向草地下来扑。</string>
+    <string name="miaoyu5">只见那一双蝴蝶忽起忽落，来来往往，将欲过河去了。</string>
+    <string name="miaoyu6">引的宝钗蹑手蹑脚的，一直跟到池边滴翠亭上，香汗淋漓，娇喘细细。</string>
+
+    <string name="jiayuanchun_verdict">天不拘兮地不羁，心头无喜亦无悲。只因煅炼通灵后，便向人间觅是非。</string>
+    <string name="jiayuanchun1">当初在青埂峰下时，它只是一块石头，没有生命和思想，没有生命就会天地不拘，没有思想，不知道什么是喜欢什么是悲伤，慢慢地懂事了，开始向往着外面的世界，是是非非也就纷至沓来。</string>
+    <string name="jiayuanchun2">灵玉被胭脂香粉之类玷污已失去了光泽，宝玉整天整夜都在华贵的房子里沉溺于风月之事，深沉酣睡的梦应该醒来，既往所作的恶业必须偿清，大家都好各自到各自的归宿里面去。</string>
+    <string name="jiayuanchun3">刚要寻别的姊妹去，忽见面前一双玉色蝴蝶，大如团扇，一上一下，迎风翩跹，十分有趣。</string>
+    <string name="jiayuanchun4">宝钗意欲扑了来玩耍，遂向袖中取出扇子来，向草地下来扑。</string>
+    <string name="jiayuanchun5">只见那一双蝴蝶忽起忽落，来来往往，将欲过河去了。</string>
+    <string name="jiayuanchun6">引的宝钗蹑手蹑脚的，一直跟到池边滴翠亭上，香汗淋漓，娇喘细细。</string>
+
+    <string name="shixiangyun_verdict">天不拘兮地不羁，心头无喜亦无悲。只因煅炼通灵后，便向人间觅是非。</string>
+    <string name="shixiangyun1">当初在青埂峰下时，它只是一块石头，没有生命和思想，没有生命就会天地不拘，没有思想，不知道什么是喜欢什么是悲伤，慢慢地懂事了，开始向往着外面的世界，是是非非也就纷至沓来。</string>
+    <string name="shixiangyun2">灵玉被胭脂香粉之类玷污已失去了光泽，宝玉整天整夜都在华贵的房子里沉溺于风月之事，深沉酣睡的梦应该醒来，既往所作的恶业必须偿清，大家都好各自到各自的归宿里面去。</string>
+    <string name="shixiangyun3">刚要寻别的姊妹去，忽见面前一双玉色蝴蝶，大如团扇，一上一下，迎风翩跹，十分有趣。</string>
+    <string name="shixiangyun4">宝钗意欲扑了来玩耍，遂向袖中取出扇子来，向草地下来扑。</string>
+    <string name="shixiangyun5">只见那一双蝴蝶忽起忽落，来来往往，将欲过河去了。</string>
+    <string name="shixiangyun6">引的宝钗蹑手蹑脚的，一直跟到池边滴翠亭上，香汗淋漓，娇喘细细。</string>
+
+    <string name="liwan_verdict">天不拘兮地不羁，心头无喜亦无悲。只因煅炼通灵后，便向人间觅是非。</string>
+    <string name="liwan1">当初在青埂峰下时，它只是一块石头，没有生命和思想，没有生命就会天地不拘，没有思想，不知道什么是喜欢什么是悲伤，慢慢地懂事了，开始向往着外面的世界，是是非非也就纷至沓来。</string>
+    <string name="liwan2">灵玉被胭脂香粉之类玷污已失去了光泽，宝玉整天整夜都在华贵的房子里沉溺于风月之事，深沉酣睡的梦应该醒来，既往所作的恶业必须偿清，大家都好各自到各自的归宿里面去。</string>
+    <string name="liwan3">刚要寻别的姊妹去，忽见面前一双玉色蝴蝶，大如团扇，一上一下，迎风翩跹，十分有趣。</string>
+    <string name="liwan4">宝钗意欲扑了来玩耍，遂向袖中取出扇子来，向草地下来扑。</string>
+    <string name="liwan5">只见那一双蝴蝶忽起忽落，来来往往，将欲过河去了。</string>
+    <string name="liwan6">引的宝钗蹑手蹑脚的，一直跟到池边滴翠亭上，香汗淋漓，娇喘细细。</string>
+
+
+
+
     <string name="occupation"/>
     <string name="game1">占花名</string>
     <string name="game2">元宵灯谜</string>
