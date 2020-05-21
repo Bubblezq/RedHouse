@@ -12,6 +12,7 @@
         <item>@string/jiabaoyu4</item>
         <item>@string/jiabaoyu5</item>
         <item>@string/jiabaoyu6</item>
+        <item>@string/jiabaoyu7</item>
         <item>@string/occupation</item>
     </string-array>
     <string-array name="lindaiyu_verdict">

@@ -9,26 +9,58 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@android:style/Theme.NoTitleBar">
-        <activity android:name=".MainActivity">
+
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MapActivity"/>
-        <activity android:name=".DaoXiangCunActivity"/>
-        <activity android:name=".HengWuYuanActivity"/>
-        <activity android:name=".HongXiangPuActivity"/>
-        <activity android:name=".LiaoFengXuanActivity"/>
-        <activity android:name=".LongCuiAnActivity"/>
-        <activity android:name=".QiuShuangZhaiActivity"/>
-        <activity android:name=".YiHongYuanActivity"/>
-        <activity android:name=".XiaoXiangGuanActivity"/>
-        <activity android:name=".XingQinBieShuActivity"/>
-        <activity android:name=".ZhuiJinLouActivity"/>
-        <activity android:name=".CaiDengMiActivity" android:screenOrientation="portrait"></activity>
-        <activity android:name=".DMDetailsActivity" android:screenOrientation="portrait"></activity>
-        <activity android:name=".ZhanHuaMingActivity" android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".MapActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DaoXiangCunActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".HengWuYuanActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".HongXiangPuActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LiaoFengXuanActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LongCuiAnActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".QiuShuangZhaiActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".YiHongYuanActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".XiaoXiangGuanActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".XingQinBieShuActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ZhuiJinLouActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CaiDengMiActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DMDetailsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ZhanHuaMingActivity"
+            android:screenOrientation="portrait" />
     </application>
 
 </manifest>
