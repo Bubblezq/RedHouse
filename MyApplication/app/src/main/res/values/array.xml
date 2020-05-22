@@ -11,8 +11,7 @@
         <item>@string/jiabaoyu3</item>
         <item>@string/jiabaoyu4</item>
         <item>@string/jiabaoyu5</item>
-        <item>@string/jiabaoyu6</item>
-        <item>@string/jiabaoyu7</item>
+
         <item>@string/occupation</item>
     </string-array>
     <string-array name="lindaiyu_verdict">
@@ -36,9 +35,6 @@
         <item>@string/jiatanchun1</item>
         <item>@string/jiatanchun2</item>
         <item>@string/jiatanchun3</item>
-        <item>@string/jiatanchun4</item>
-        <item>@string/jiatanchun5</item>
-        <item>@string/jiatanchun6</item>
         <item>@string/occupation</item>
     </string-array>
     <string-array name="jiayingchun_verdict">
@@ -49,9 +45,6 @@
         <item>@string/jiayingchun1</item>
         <item>@string/jiayingchun2</item>
         <item>@string/jiayingchun3</item>
-        <item>@string/jiayingchun4</item>
-        <item>@string/jiayingchun5</item>
-        <item>@string/jiayingchun6</item>
         <item>@string/occupation</item>
     </string-array>
     <string-array name="jiaxichun_verdict">
@@ -62,9 +55,7 @@
         <item>@string/jiaxichun1</item>
         <item>@string/jiaxichun2</item>
         <item>@string/jiaxichun3</item>
-        <item>@string/jiaxichun4</item>
-        <item>@string/jiaxichun5</item>
-        <item>@string/jiaxichun6</item>
+
         <item>@string/occupation</item>
     </string-array>
     <string-array name="xuebaochai_verdict">
@@ -102,8 +93,6 @@
         <item>@string/jiayuanchun2</item>
         <item>@string/jiayuanchun3</item>
         <item>@string/jiayuanchun4</item>
-        <item>@string/jiayuanchun5</item>
-        <item>@string/jiayuanchun6</item>
         <item>@string/occupation</item>
     </string-array>
     <string-array name="shixiangyun_verdict">
@@ -114,9 +103,6 @@
         <item>@string/shixiangyun1</item>
         <item>@string/shixiangyun2</item>
         <item>@string/shixiangyun3</item>
-        <item>@string/shixiangyun4</item>
-        <item>@string/shixiangyun5</item>
-        <item>@string/shixiangyun6</item>
         <item>@string/occupation</item>
     </string-array>
     <string-array name="liwan_verdict">
@@ -128,8 +114,6 @@
         <item>@string/liwan2</item>
         <item>@string/liwan3</item>
         <item>@string/liwan4</item>
-        <item>@string/liwan5</item>
-        <item>@string/liwan6</item>
         <item>@string/occupation</item>
     </string-array>
 </resources>

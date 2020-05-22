@@ -61,6 +61,9 @@
         <activity
             android:name=".ZhanHuaMingActivity"
             android:screenOrientation="portrait" />
+        <activity
+            android:name=".HelpActivity"
+            android:screenOrientation="portrait" />
     </application>
 
 </manifest>

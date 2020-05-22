@@ -5,6 +5,7 @@ import android.app.ActivityOptions;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 import android.content.Intent;
 
 public class MapActivity extends Activity {
@@ -12,6 +13,15 @@ public class MapActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.map);
+
+        TextView help=findViewById(R.id.help);
+        help.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(MapActivity.this,HelpActivity.class);
+                startActivity(intent);
+            }
+        });
 
         Button btn1=findViewById(R.id.yihongyuan);
         btn1.bringToFront();

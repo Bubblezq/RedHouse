@@ -26,10 +26,20 @@
             android:background="@drawable/returnbutton" />
 
         <TextView
-            android:layout_width="match_parent"
+            android:layout_width="100dp"
             android:layout_height="match_parent"
             android:layout_marginTop="6dp"
             android:text="返回"
+            android:textColor="@color/colorBlack"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/help"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="6dp"
+            android:gravity="right"
+            android:text="使用说明"
             android:textColor="@color/colorBlack"
             android:textSize="18dp" />
 
